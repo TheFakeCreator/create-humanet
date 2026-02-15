@@ -1,0 +1,81 @@
+humanet:
+  version: "1.0"
+  
+  # Metadata
+  id: ""
+  name: "{{NAME}}"
+  tagline: "{{TAGLINE}}"
+  description: ""
+  created: "{{CREATED_DATE}}"
+  updated: "{{UPDATED_DATE}}"
+  
+  # Lifecycle
+  status: "provisional"
+  status_history:
+    - status: "provisional"
+      date: "{{CREATED_DATE}}"
+      note: "Initial idea submission"
+  provisional_deadline: "{{PROVISIONAL_DEADLINE}}"
+  
+  # Domains
+  domains:
+{{DOMAINS}}
+  
+  tags: []
+  
+  # Contributors
+  maintainers:
+    - username: "{{USERNAME}}"
+      role: "creator"
+      joined: "{{CREATED_DATE}}"
+      karma: 0
+  
+  contributors: []
+  
+  # Evolution
+  parent: null
+  forks: []
+  branches: []
+  related: []
+  
+  # Validation
+  last_evaluated: null
+  evaluation_score: null
+  validation_status: "pending"
+  evaluation_criteria:
+    clarity: null
+    feasibility: null
+    impact: null
+    originality: null
+    completeness: null
+  ai_feedback: null
+  
+  # Links
+  platform_url: null
+  repository_url: "{{REPOSITORY_URL}}"
+  links:
+    website: ""
+    documentation: ""
+    demo: ""
+    prototype: ""
+    discussion: ""
+  
+  # Settings
+  license: "{{LICENSE}}"
+  accepting_contributions: true
+  contribution_guidelines: ""
+  contact:
+    email: ""
+    discord: ""
+    twitter: ""
+  
+  # Metrics
+  metrics:
+    last_commit: null
+    commit_count: 0
+    views: 0
+    stars: 0
+    forks: 0
+    contributors_count: 1
+    discussions_count: 0
+    total_karma_distributed: 0
