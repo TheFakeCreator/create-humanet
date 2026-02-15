@@ -90,6 +90,8 @@ git push
 Commit your `.humanet` folder to your repository and share it with the community!
 
 > **Note:** The Humanet platform website is coming soon. For now, your idea lives in your GitHub repository.
+> 
+> 📚 **[Learn more in the documentation](https://humanet-docs.vercel.app/)**
 
 ## Non-Interactive Mode
 
@@ -136,11 +138,10 @@ Read the error messages carefully. Common issues:
 
 ## Next Steps
 
+- **Documentation:** [humanet-docs.vercel.app](https://humanet-docs.vercel.app/)
 - **CLI Repository:** [github.com/TheFakeCreator/create-humanet](https://github.com/TheFakeCreator/create-humanet)
 - **Template Guide:** [github.com/TheFakeCreator/.humanet](https://github.com/TheFakeCreator/.humanet)
 - **Get Help:** [github.com/TheFakeCreator/create-humanet/issues](https://github.com/TheFakeCreator/create-humanet/issues)
-
-> **Platform Status:** Documentation site and community channels coming soon!
 
 ## Need Help?
 

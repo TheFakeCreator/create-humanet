@@ -1,6 +1,6 @@
 {
   "name": "create-humanet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "CLI tool for creating .humanet folder structures for idea documentation (Platform coming soon)",
   "type": "module",
   "main": "./src/index.js",

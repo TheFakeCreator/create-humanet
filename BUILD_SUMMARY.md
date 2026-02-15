@@ -353,6 +353,7 @@ You now have a **complete, production-ready CLI tool** that:
 ## 📞 Support
 
 For questions or issues:
+- Read the documentation: https://humanet-docs.vercel.app/
 - Open an issue: https://github.com/TheFakeCreator/create-humanet/issues
 - Start a discussion: https://github.com/TheFakeCreator/create-humanet/discussions
 - View templates: https://github.com/TheFakeCreator/.humanet

@@ -70,6 +70,7 @@ This documentation is licensed under {{LICENSE}}.
 
 ## Resources
 
+- **Documentation:** https://humanet-docs.vercel.app/
 - **CLI Repository:** https://github.com/TheFakeCreator/create-humanet
 - **Template Repository:** https://github.com/TheFakeCreator/.humanet
 - **Issues & Support:** https://github.com/TheFakeCreator/create-humanet/issues

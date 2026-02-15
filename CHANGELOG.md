@@ -5,6 +5,20 @@ All notable changes to the create-humanet CLI tool will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.2] - 2026-02-16
+
+### Added
+- Added documentation links throughout the project pointing to https://humanet-docs.vercel.app/
+- Documentation now hosted on Vercel and accessible to users
+
+### Changed
+- Updated README.md to include documentation link with emoji indicator
+- Updated QUICKSTART.md to reference documentation
+- Updated all template files (README.md, CONTRIBUTORS.md) with documentation links
+- Updated CLI success message to display documentation link
+- Updated BUILD_SUMMARY.md with documentation reference
+- Removed "documentation coming soon" from Platform Status messages (docs now live)
+
 ## [1.0.1] - 2026-02-16
 
 ### Changed

@@ -168,6 +168,7 @@ function displaySuccessMessage(userData) {
   console.log(chalk.gray('   Complete documentation and validation within 30 days.\n'));
 
   console.log(chalk.bold('📖 Resources:'));
+  console.log(chalk.gray('   • Documentation: ') + chalk.blue('https://humanet-docs.vercel.app/'));
   console.log(chalk.gray('   • CLI Repository: ') + chalk.blue('https://github.com/TheFakeCreator/create-humanet'));
   console.log(chalk.gray('   • Template Guide: ') + chalk.blue('https://github.com/TheFakeCreator/.humanet'));
   console.log(chalk.yellow('   • Platform coming soon!\n'));

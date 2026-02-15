@@ -8,6 +8,8 @@ Humanet is a platform for structured idea documentation with lifecycle managemen
 
 > **Note:** The Humanet platform is currently under development. This CLI tool is ready to use for creating `.humanet` folder structures in your repositories.
 
+📚 **[View Documentation](https://humanet-docs.vercel.app/)**
+
 ## Installation
 
 ```bash
@@ -170,11 +172,12 @@ When initializing, you can choose from these domains:
 
 ## Links
 
+- **Documentation:** [humanet-docs.vercel.app](https://humanet-docs.vercel.app/)
 - **CLI Repository:** [github.com/TheFakeCreator/create-humanet](https://github.com/TheFakeCreator/create-humanet)
 - **Template Repository:** [github.com/TheFakeCreator/.humanet](https://github.com/TheFakeCreator/.humanet)
 - **Issues & Discussions:** [github.com/TheFakeCreator/create-humanet/issues](https://github.com/TheFakeCreator/create-humanet/issues)
 
-> **Platform Status:** Website, documentation, and community channels are coming soon! Stay tuned.
+> **Platform Status:** Website and community channels are coming soon! Stay tuned.
 
 ## Contributing
 
