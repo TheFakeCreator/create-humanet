@@ -4,7 +4,9 @@ Official CLI tool for initializing and managing Humanet idea documentation.
 
 ## What is Humanet?
 
-Humanet is a platform for structured idea documentation with lifecycle management, AI validation, and knowledge graphs. Learn more at [humanet.dev](https://humanet.dev).
+Humanet is a platform for structured idea documentation with lifecycle management, AI validation, and knowledge graphs.
+
+> **Note:** The Humanet platform is currently under development. This CLI tool is ready to use for creating `.humanet` folder structures in your repositories.
 
 ## Installation
 
@@ -135,7 +137,7 @@ When you run `humanet init`, the following structure is created:
 3. Edit `.humanet/scope.md` - Define boundaries and success metrics
 4. Run `humanet validate` to check everything is correct
 5. Commit and push to GitHub
-6. Register your idea at [humanet.dev](https://humanet.dev)
+6. Share with the community (platform coming soon!)
 
 ## Available Domains
 
@@ -168,10 +170,11 @@ When initializing, you can choose from these domains:
 
 ## Links
 
-- **Website:** [humanet.dev](https://humanet.dev)
-- **Documentation:** [docs.humanet.dev](https://docs.humanet.dev)
-- **Template Repository:** [github.com/humanet/template](https://github.com/humanet/template)
-- **Discord:** [discord.gg/humanet](https://discord.gg/humanet)
+- **CLI Repository:** [github.com/TheFakeCreator/create-humanet](https://github.com/TheFakeCreator/create-humanet)
+- **Template Repository:** [github.com/TheFakeCreator/.humanet](https://github.com/TheFakeCreator/.humanet)
+- **Issues & Discussions:** [github.com/TheFakeCreator/create-humanet/issues](https://github.com/TheFakeCreator/create-humanet/issues)
+
+> **Platform Status:** Website, documentation, and community channels are coming soon! Stay tuned.
 
 ## Contributing
 

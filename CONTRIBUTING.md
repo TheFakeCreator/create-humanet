@@ -6,8 +6,8 @@ Thank you for your interest in contributing to create-humanet!
 
 1. **Clone the repository**
    ```bash
-   git clone https://github.com/humanet/cli.git
-   cd cli
+   git clone https://github.com/TheFakeCreator/create-humanet.git
+   cd create-humanet
    ```
 
 2. **Install dependencies**
@@ -96,7 +96,9 @@ Currently, tests are minimal. We welcome contributions to improve test coverage!
 
 ## Questions?
 
-Feel free to open an issue or reach out on Discord: https://discord.gg/humanet
+Feel free to open an issue or start a discussion on GitHub:
+- Issues: https://github.com/TheFakeCreator/create-humanet/issues
+- Discussions: https://github.com/TheFakeCreator/create-humanet/discussions
 
 ## License
 

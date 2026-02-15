@@ -161,16 +161,16 @@ function displaySuccessMessage(userData) {
   console.log(chalk.cyan('  3.') + ' Edit ' + chalk.bold('.humanet/scope.md'));
   console.log(chalk.cyan('  4.') + ' Run: ' + chalk.bold('humanet validate'));
   console.log(chalk.cyan('  5.') + ' Commit and push to GitHub');
-  console.log(chalk.cyan('  6.') + ' Register at ' + chalk.bold('https://humanet.dev\n'));
+  console.log(chalk.cyan('  6.') + ' Share your idea with the community\n');
 
   console.log(chalk.bold('⏰ Important:'));
   console.log(chalk.yellow(`   Your idea has a provisional deadline: ${userData.provisionalDeadline}`));
   console.log(chalk.gray('   Complete documentation and validation within 30 days.\n'));
 
   console.log(chalk.bold('📖 Resources:'));
-  console.log(chalk.gray('   • Documentation: ') + chalk.blue('https://docs.humanet.dev'));
-  console.log(chalk.gray('   • Discord: ') + chalk.blue('https://discord.gg/humanet'));
-  console.log(chalk.gray('   • Template Guide: ') + chalk.blue('https://github.com/humanet/template\n'));
+  console.log(chalk.gray('   • CLI Repository: ') + chalk.blue('https://github.com/TheFakeCreator/create-humanet'));
+  console.log(chalk.gray('   • Template Guide: ') + chalk.blue('https://github.com/TheFakeCreator/.humanet'));
+  console.log(chalk.yellow('   • Platform coming soon!\n'));
 
   console.log(chalk.gray('✨ Happy building!\n'));
 }

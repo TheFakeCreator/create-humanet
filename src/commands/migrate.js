@@ -16,5 +16,5 @@ export default async function migrate(options) {
   console.log(chalk.cyan('  humanet init') + chalk.gray(' - to create a new .humanet folder'));
   console.log(chalk.gray('\nThen manually copy your existing content into the new structure.\n'));
   
-  console.log(chalk.gray('Stay tuned for updates: ') + chalk.blue('https://github.com/humanet/cli\n'));
+  console.log(chalk.gray('Stay tuned for updates: ') + chalk.blue('https://github.com/TheFakeCreator/create-humanet\n'));
 }

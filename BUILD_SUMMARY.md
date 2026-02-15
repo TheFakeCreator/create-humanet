@@ -307,9 +307,9 @@ humanet validate --verbose
 ## 🔄 Next Steps (Optional Enhancements)
 
 ### Immediate
-- [ ] Add more comprehensive tests
-- [ ] Set up GitHub repository at humanet/cli
-- [ ] Publish to npm
+- [x] Add more comprehensive tests
+- [x] Set up GitHub repository at TheFakeCreator/create-humanet
+- [x] Publish to npm
 
 ### Future
 - [ ] Implement full migrate command
@@ -353,9 +353,11 @@ You now have a **complete, production-ready CLI tool** that:
 ## 📞 Support
 
 For questions or issues:
-- Open an issue on GitHub
-- Join Discord: https://discord.gg/humanet
-- Documentation: https://docs.humanet.dev
+- Open an issue: https://github.com/TheFakeCreator/create-humanet/issues
+- Start a discussion: https://github.com/TheFakeCreator/create-humanet/discussions
+- View templates: https://github.com/TheFakeCreator/.humanet
+
+> **Note:** Platform website and community channels coming soon!
 
 ---
 

@@ -85,7 +85,7 @@ npx create-humanet@latest
 ## Post-Publication
 
 1. **GitHub Release**
-   - Go to: https://github.com/humanet/cli/releases
+   - Go to: https://github.com/TheFakeCreator/create-humanet/releases
    - Create a new release for the tag
    - Copy CHANGELOG.md content
 
@@ -111,7 +111,7 @@ The project includes a GitHub Actions workflow that can automatically publish to
    - Copy the token
 
 2. **Add Token to GitHub Secrets**
-   - Go to: https://github.com/humanet/cli/settings/secrets/actions
+   - Go to: https://github.com/TheFakeCreator/create-humanet/settings/secrets/actions
    - Create new secret: `NPM_TOKEN`
    - Paste your npm token
 

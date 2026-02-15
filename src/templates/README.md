@@ -45,9 +45,9 @@ This `.humanet/` folder contains structured documentation for this idea, followi
    humanet validate
    ```
 
-5. **Share** - Commit and register
+5. **Share** - Commit and share
    - Push to GitHub
-   - Register at https://humanet.dev
+   - Share with the community
 
 ## Lifecycle Status
 
@@ -70,9 +70,11 @@ This documentation is licensed under {{LICENSE}}.
 
 ## Resources
 
-- **Platform:** https://humanet.dev
-- **Documentation:** https://docs.humanet.dev
-- **Discord:** https://discord.gg/humanet
+- **CLI Repository:** https://github.com/TheFakeCreator/create-humanet
+- **Template Repository:** https://github.com/TheFakeCreator/.humanet
+- **Issues & Support:** https://github.com/TheFakeCreator/create-humanet/issues
+
+> **Note:** The Humanet platform is currently under development.
 
 ---
 

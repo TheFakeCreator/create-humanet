@@ -59,8 +59,10 @@ Be kind, be constructive, be honest. We're here to collaborate on ideas that mak
 ## Contact
 
 - **Email:** [Add email if applicable]
-- **Discord:** https://discord.gg/humanet
-- **Platform:** https://humanet.dev
+- **GitHub Issues:** https://github.com/TheFakeCreator/create-humanet/issues
+- **GitHub Discussions:** https://github.com/TheFakeCreator/create-humanet/discussions
+
+> **Note:** Community channels and platform coming soon!
 
 ---
 

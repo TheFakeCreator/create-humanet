@@ -85,9 +85,11 @@ git commit -m "Add idea documentation"
 git push
 ```
 
-### 5. Register on Humanet
+### 5. Share Your Idea
 
-Go to [humanet.dev](https://humanet.dev) and register your idea!
+Commit your `.humanet` folder to your repository and share it with the community!
+
+> **Note:** The Humanet platform website is coming soon. For now, your idea lives in your GitHub repository.
 
 ## Non-Interactive Mode
 
@@ -134,14 +136,16 @@ Read the error messages carefully. Common issues:
 
 ## Next Steps
 
-- **Read the docs:** [docs.humanet.dev](https://docs.humanet.dev)
-- **Join Discord:** [discord.gg/humanet](https://discord.gg/humanet)
-- **See examples:** [github.com/humanet/template](https://github.com/humanet/template)
+- **CLI Repository:** [github.com/TheFakeCreator/create-humanet](https://github.com/TheFakeCreator/create-humanet)
+- **Template Guide:** [github.com/TheFakeCreator/.humanet](https://github.com/TheFakeCreator/.humanet)
+- **Get Help:** [github.com/TheFakeCreator/create-humanet/issues](https://github.com/TheFakeCreator/create-humanet/issues)
+
+> **Platform Status:** Documentation site and community channels coming soon!
 
 ## Need Help?
 
-- Open an issue: [github.com/humanet/cli/issues](https://github.com/humanet/cli/issues)
-- Ask on Discord: [discord.gg/humanet](https://discord.gg/humanet)
+- Open an issue: [github.com/TheFakeCreator/create-humanet/issues](https://github.com/TheFakeCreator/create-humanet/issues)
+- Start a discussion: [github.com/TheFakeCreator/create-humanet/discussions](https://github.com/TheFakeCreator/create-humanet/discussions)
 
 ---
 

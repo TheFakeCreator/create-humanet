@@ -1,7 +1,7 @@
 {
   "name": "create-humanet",
-  "version": "1.0.0",
-  "description": "Official CLI tool for initializing and managing Humanet idea documentation",
+  "version": "1.0.1",
+  "description": "CLI tool for creating .humanet folder structures for idea documentation (Platform coming soon)",
   "type": "module",
   "main": "./src/index.js",
   "bin": {
@@ -31,12 +31,12 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/humanet/cli.git"
+    "url": "git+https://github.com/TheFakeCreator/create-humanet.git"
   },
   "bugs": {
-    "url": "https://github.com/humanet/cli/issues"
+    "url": "https://github.com/TheFakeCreator/create-humanet/issues"
   },
-  "homepage": "https://humanet.dev",
+  "homepage": "https://github.com/TheFakeCreator/create-humanet",
   "dependencies": {
     "commander": "^11.0.0",
     "inquirer": "^9.0.0",
