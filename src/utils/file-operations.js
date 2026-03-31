@@ -2,7 +2,7 @@ import fs from 'fs-extra';
 import { join, dirname } from 'path';
 import { fileURLToPath } from 'url';
 
-const { copySync, ensureDirSync, readFileSync, writeFileSync, existsSync } = fs;
+const { copySync, ensureDirSync, readFileSync, writeFileSync, existsSync, removeSync } = fs;
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
@@ -12,6 +12,16 @@ const __dirname = dirname(__filename);
  */
 export function getTemplatesPath() {
   return join(__dirname, '../templates');
+}
+
+/**
+ * Remove existing .humanet folder
+ */
+export function removeHumanetFolder(basePath = process.cwd()) {
+  const humanetPath = join(basePath, '.humanet');
+  if (existsSync(humanetPath)) {
+    removeSync(humanetPath);
+  }
 }
 
 /**
@@ -103,7 +113,7 @@ function customizeConfigYml(destPath, data) {
   content = content.replace('{{TAGLINE}}', data.tagline);
   content = content.replace('{{USERNAME}}', data.username);
   content = content.replace('{{LICENSE}}', data.license);
-  content = content.replace('{{REPOSITORY_URL}}', data.repoUrl || '');
+  content = content.replace('{{REPOSITORY_URL}}', data.repoUrl ? `"${data.repoUrl}"` : 'null');
   
   // Replace all date placeholders
   content = content.replace(/\{\{CREATED_DATE\}\}/g, data.createdDate);

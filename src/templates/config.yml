@@ -52,7 +52,7 @@ humanet:
   
   # Links
   platform_url: null
-  repository_url: "{{REPOSITORY_URL}}"
+  repository_url: {{REPOSITORY_URL}}
   links:
     website: ""
     documentation: ""

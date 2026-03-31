@@ -5,6 +5,13 @@ All notable changes to the create-humanet CLI tool will be documented in this fi
 The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
 and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
+## [1.0.3] - 2026-03-31
+
+### Fixed
+- Fixed overwrite functionality when .humanet folder already exists
+- Now properly deletes existing folder before copying templates to prevent ENOENT errors
+- Resolves issue where init would fail with "no such file or directory" error on Windows
+
 ## [1.0.2] - 2026-02-16
 
 ### Added

@@ -7,6 +7,7 @@ import {
   getHumanetPath,
   copyTemplates,
   customizeTemplates,
+  removeHumanetFolder,
   getCurrentDate,
   calculateProvisionalDeadline
 } from '../utils/file-operations.js';
@@ -63,6 +64,11 @@ export default async function init(options) {
     
     try {
       const humanetPath = getHumanetPath();
+      
+      // Remove existing folder if overwriting
+      if (humanetExists()) {
+        removeHumanetFolder();
+      }
       
       // Copy templates
       copyTemplates(humanetPath);
